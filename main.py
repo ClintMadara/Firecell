@@ -8,7 +8,7 @@ products = [
         "id": 1, 
         "name": "Mechanical Keyboard", 
         "price": 899.99,
-        "category": "sunga"
+        "category": "Accessories"
     },
 
     {
