@@ -14,14 +14,14 @@ products = [
     {
         "id": 2, 
         "name": "Wireless Mouse", 
-        "price": 25,
+        "price": 449.99,
         "category": "Accessories"
     },
 
     {
         "id": 3, 
         "name": "Gaming monitor", 
-        "price": 75,
+        "price": 3499.99,
         "category": "Monitors"
     }
 ]
@@ -29,3 +29,8 @@ products = [
 @app.get("/")
 def home():
     return {"message": "Welcome to Firecell Graphics"}
+
+
+@app.get("/api/products")
+def get_products():
+    return products
