@@ -28,7 +28,7 @@ products = [
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to Firecell Graphics"}
+    return {"message": "Welcome to Firecell"}
 
 
 @app.get("/api/products")
